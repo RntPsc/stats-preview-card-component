@@ -1,0 +1,38 @@
+ /* X-Large devices (large desktops, less than 1400px) */
+
+ @media only screen and (max-width: 1440px) {}
+
+ /* Small devices */
+
+ @media only screen and (max-width:900px) {
+ 	#container {
+ 		margin-top: 100%;
+ 		max-width: 375px;
+ 	}
+ 	#card_m {
+ 		flex-direction: column-reverse;
+ 		/* margin: 15% auto; */
+ 		flex: 1 1 auto;
+ 	}
+ 	#card_sx {
+ 		min-width: 375px;
+ 		border-top-left-radius: 0px;
+ 		border-bottom-right-radius: 10px;
+ 		text-align: center;
+ 	}
+ 	.counter {
+ 		flex-direction: column;
+ 	}
+ 	.box {
+ 		margin-bottom: 15%;
+ 	}
+ 	#card_dx {
+ 		min-height: 500px;
+ 		min-width: 375px;
+ 		border-top-left-radius: 5px;
+ 		border-bottom-right-radius: 0px;
+ 	}
+ 	.attribution {
+ 		margin: 10% auto;
+ 	}
+ }
